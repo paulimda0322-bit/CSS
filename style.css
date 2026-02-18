@@ -1,0 +1,38 @@
+#title {
+    color:palevioletred;
+}
+
+p.text{
+    color:rgb(114, 114, 246);
+    border: 5px black dotted; /*dashed, solid, double, groove, none, inset, ridge,*/
+}
+p.special{
+    color: brown;
+
+}
+div p{
+    color: aqua;
+}
+div h2, div h3{
+    color: blue;
+}
+
+/* Cometario que no va aparecer en la pag o para deshabilitar*/
+
+#title *{
+    font-size: 20px;
+    color: black;
+}
+#article {
+    background-color: rgb(235, 95, 0);/*El ultimo digito es transparencia, por ende si se le pone 0 es totalmente transparente*/
+    opacity: 1;
+    padding: 10px;
+    border: 12px solid darkcyan;
+    border-radius: 5px;
+    background-image:url(CSS/miu);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: ;
+    
+}
